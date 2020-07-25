@@ -1,8 +1,16 @@
+body{
+
+    font-family: "Raleway", sans-serif;
+
+
+}
+
 .bin{
 
     background: url(../images/artiom-vallat-Gl9SxvjeNkc-unsplash.jpg)
     no-repeat center center fixed;
     background-size: cover;
+    color: white;
 
 }
 
@@ -10,7 +18,52 @@
 
 .intro {
 
+    text-align: center;
     
-    font-family: "Raleway", sans-serif;
     
 }
+.intro > h1 {
+
+     font-size: 70px; 
+     
+}
+
+.nav-justified{
+
+    text-align: center;
+    padding: 10px;
+
+
+}
+.nav-justified > li{
+
+    /* padding: 30%; */
+    padding: 0px 120px;
+    
+    text-align: center;
+    /* margin-top: 20%; */
+
+
+}
+.nav-justified > li > a {
+
+    color: white;
+    padding: 0px 100;
+    
+    font-size: 20px;
+
+
+}
+/* .navbar {
+
+    border-radius: 10%;
+    float: left;
+
+
+}
+.navbar{
+
+background-color:none ;
+
+} */
+ 
