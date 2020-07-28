@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+
+    font-family: "Raleway", sans-serif;
+
+    
+    
+
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0px 100px;
+}
+
+nav a{
+    color: #f1faee;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+
+}
+nav a:hover{
+
+    color: #f1faee;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a::after{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-bottom-left-radius:20% ;
+    border-bottom: 2px solid #e63946;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+    
+}
+nav a:hover::after{
+
+    -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+
+
+}
+
+
+nav li{
+    
+    overflow: hidden;
+    
+}
+
+a.active::after{
+    transform: translateX(0%)
+}
+
+#home, #services, #about, #contact{
+    
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home{
+    font-family: 'Great Vibes', cursive;
+    height: 100vh;
+     background: url(../images/artiom-vallat-Gl9SxvjeNkc-unsplash.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+} 
+
+#services{
+    
+      height: 110vh;
+    background: url(../images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg)  no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    
+   
+} 
+
+#about{
+      height: 110vh;
+      background: url(../images/artiom-vallat-Gl9SxvjeNkc-unsplash.jpg)
+    no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    
+    
+    
+}
+
+#contact{
+     height: 100vh;
+      background: url(../images/bernard-hermant-X-Bu9X6gok0-unsplash.jpg)  no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    
+    
+}

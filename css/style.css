@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
 
     font-family: "Raleway", sans-serif;
@@ -5,14 +10,21 @@ body{
 
 }
 
+header{
+    
+   
+    
+}
+
 .bin{
 
-    background: url(../images/artiom-vallat-Gl9SxvjeNkc-unsplash.jpg)
+     background: url(../images/artiom-vallat-Gl9SxvjeNkc-unsplash.jpg)
     no-repeat center center fixed;
     background-size: cover;
     background-position: center;
     color: white;
     height: 100vh;
+    
    
 }
 
